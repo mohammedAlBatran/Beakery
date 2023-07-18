@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    height: 8000px;
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    text-align: center;
+    height: 100vh;
+    background-image: url(images/1.jpg);
+    background-size: 100% 100%;
+    color: aliceblue;
+    margin-bottom: 100px;
+
+}
+
+.home .caption {
+    padding-top: 500px;
+}
+
+.home .bakery-img {
+
+
+    width: 20%;
+
+}
+
+.home .caption .btn1 {
+    background-color: rgb(165, 124, 108);
+    font-size: 30px;
+    color: #fff;
+    border: #fff solid 5px;
+    border-radius: 5%;
+
+}
+
+.home .caption .btn2 {
+    font-size: 30px;
+    color: #fff;
+    border: #fff solid 5px;
+    margin-left: 20px;
+    background: none;
+    border-radius: 5%;
+}
+
+.home .caption h1 {
+    font-size: 150px;
+}
+
+.home p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.home button {
+    padding: 40px 80px;
+    margin-top: 80px;
+}
+
+/*=================================================================================*/
+
+.about {
+    overflow: hidden;
+
+
+}
+
+.about .about-image {
+
+    float: left;
+    width: 40%;
+    margin-bottom: 200px;
+
+
+}
+
+.about .about-image img {
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    margin-top: 150px;
+
+}
+
+
+.about .about-info {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding: 50px 50px;
+    margin: 150px 200px;
+
+
+}
+
+.about .about-info p {
+    color: #686868;
+    font-size: 40px;
+    font-family: "Alegreya Sans";
+    padding: 20px;
+}
+
+
+.about .about-info h2 {
+    font-size: 50px;
+    font-family: "Alegreya Sans";
+
+}
+
+.about .about-info .content {
+    padding-top: 50px;
+    padding: 10px 10px;
+}
+
+.about .about-info .content p {
+    padding-left: 100px;
+}
+
+.about .about-info .content img {
+    border-radius: 50%;
+    float: left;
+    margin-top: 1px;
+}
+
+
+/*=============================================================================*/
+
+.location {
+
+    margin-top: 100px;
+}
+
+.location .location-content {
+    width: 50%;
+    float: left;
+    font-family: "Alegreya Sans";
+    margin-top: 150px;
+    padding: 40px;
+
+}
+
+.location .location-content p {
+    color: #686868;
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px 20px;
+
+}
+
+.location .location-img {
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+}
+
+.location .location-img img {
+    width: 100%;
+
+}
+
+.location .location-content h2 {
+    font-size: 60px;
+    color: black;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.location .clr {
+    clear: both;
+}
+
+
+/*=============================================================================*/
+
+
+.baking .baking-info {
+
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+
+}
+
+.baking .baking-info h2 {
+    font-size: 50px;
+    color: darkslategrey;
+}
+
+.baking .baking-info p {
+    font-size: 30px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+    padding: 50px 30px;
+
+}
+
+
+.baking .baking-image {
+    width: 100%;
+
+
+}
+
+.baking .baking-image .item {
+    width: 28%;
+    float: left;
+    text-align: center;
+    margin: 50px 50px;
+
+
+}
+
+.baking .baking-image .item img {
+    width: 100%;
+
+}
+
+.baking .baking-image .item h2 {
+    font-size: 50px;
+    color: #686868;
+    padding: 50px 30px;
+
+
+}
+
+.baking .baking-image .item p {
+    font-size: 40px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+
+}
+
+
+.baking {
+    overflow: hidden;
+    margin-top: 150px;
+
+
+}
+
+/*=============================================================================*/
+.contact {
+    margin-top: 200px;
+    overflow: hidden;
+
+}
+
+.contact .contact-info {
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+    font-family: "Alegreya Sans";
+
+
+}
+
+.contact .contact-info h2 {
+    font-size: 60px;
+    color: #251f1f;
+}
+
+.contact .contact-info p {
+    font-size: 40px;
+    color: #110101;
+    padding: 30px 10px;
+}
+
+.contact .contact-img {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    padding-left: 130px;
+}
+
+.contact .contact-img img {
+    width: 100%;
+
+
+}
+
+.contact .contact-info .content img {
+    border-radius: 50%;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 20px 20px;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+}
+
+/*=================================================================================*/
+
+.about-us {
+    background-color: #403d38;
+    margin-top: 150px;
+    padding: 90px 50px;
+    overflow: hidden;
+}
+
+.about-us .about-info {
+
+    width: 20%;
+    float: left;
+    font-size: 35px;
+    margin: 10px 10px;
+    padding: 50px 50px;
+    font-family: "Alegreya Sans";
+}
+
+.about-us .about-info h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.about-us .about-info p {
+    padding: 20px 20px;
+    color: #969696;
+}
+
+.brdr {
+    background-color: #686868;
+    height: 1px;
+    margin: auto;
+    width: 100%;
+
+}
+
+.about-us .special {
+
+    width: 20%;
+    float: left;
+    font-size: 35px;
+    margin: 10px 10px;
+    padding: 50px 50px;
+    font-family: "Alegreya Sans";
+
+}
+
+.about-us .special h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.about-us .special li {
+    padding: 20px 10px;
+    color: #969696;
+}
+
+.about-us .open-hour {
+
+    width: 20%;
+    float: left;
+    font-size: 35px;
+    margin: 10px 10px;
+    padding: 50px 50px;
+    font-family: "Alegreya Sans";
+
+}
+
+.about-us .open-hour h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.about-us .open-hour li {
+    padding: 20px 10px;
+    color: #969696;
+}
+
+.about-us .contact-details {
+
+    width: 20%;
+    float: left;
+    font-size: 35px;
+    font-family: "Alegreya Sans";
+    margin: 10px 10px;
+    padding: 50px 50px;
+    background-image: url(images/darkmap.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.about-us .contact-details h3 {
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.about-us .contact-details li {
+    padding: 20px 10px;
+    color: #969696;
+}
+
+.about-us .contact-details a {
+    color: #969696;
+}
+
+.copyright {
+    margin: auto;
+    background-color: #353330;
+    text-align: center;
+    padding: 200px 10px;
+}
+
+.copyright h3 {
+    padding-top: 80px;
+    font-size: 30px;
+    color: #969696;
+}
+
+.copyright img {
+    width: 25%;
+}
